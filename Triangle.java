@@ -13,7 +13,7 @@ public class Triangle {
 		double c = input.nextDouble();
 		
 		if (a + b <= c || a + c <= b || c + b <= a) {
-			System.out.println("不是三角形");
+			System.out.println("並不是三角形");
 		}
 		else if (a == b && b == c && c == a) {
 			System.out.println("正三角形");
