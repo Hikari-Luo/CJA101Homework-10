@@ -12,7 +12,7 @@ public class Lottery {
         
         
         if (dislikedNumber < 1 || dislikedNumber > 9) {
-            System.out.println("輸入錯誤！請輸入 1~9 之間的數字。");
+            System.out.println("輸入錯誤！請輸入 1~9 之間的數字");
         } 
         else 
         {

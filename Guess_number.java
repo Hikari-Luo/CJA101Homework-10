@@ -8,7 +8,7 @@ public class Guess_number {
 		int randomNumber = (int) (Math.random() * 10 );
         Scanner scanner = new Scanner(System.in);
         int guess;
-        System.out.println("let's guess number");
+        System.out.println("Let's guess number");
 	
 	while (true) {
 		System.out.println("guess what");
